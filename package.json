@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url":  "https://git.heroku.com/weku-newbies-bot.git "
+    "url":  "git+ssh://git@github.com:Sohel12/test-vote-bot.git"
   },
   "keywords": [
     "weku",
