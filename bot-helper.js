@@ -17,7 +17,7 @@ module.exports = class BotHelper {
 
     static updateVotingPowerStatus(bot, username) {
         Adapter.instance().processAccountInfo(username, function (account) {
-            bot.user.setActivity(sprintf(`VP - %s%%.`, tool.calculateVotingPower(account)), { type: `Watching` });
+            bot.user.setActivity(sprintf(`VP - %s%%.`, tool.calculateVotingPower(account)), { type: `Working` });
         });
     }
 
